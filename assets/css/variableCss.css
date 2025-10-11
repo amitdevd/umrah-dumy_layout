@@ -1,0 +1,216 @@
+﻿:root {
+    --color1: #0b0b0d;
+    --color2: #181619;
+    --color3: #181b22;
+    --color4: #3a3c3f;
+    --color5: #a76b09;
+    --color6: #dda74f;
+    --color7: #fff;
+    --color8: #3b3b40;
+    --color9:#f5cc2a;
+    --color1-gradient: linear-gradient(58deg, #eac440 0%, #fae871 48%, #f7d168 73%, #eac440 100%);
+    /*var(--color6)*/
+
+    --font-one: "Barlow", sans-serif;
+    --font-two: "Montserrat", sans-serif;
+    --font-three: "Noto Naskh Arabic", serif;
+    --border_radius: 10px;
+    --padding: 10px 20px;
+    
+    --h1: 50px;
+    --h1_line-height: 60px;
+    --h1_weight: 700;
+    
+    --h2: 40px;
+    --h2_line-height: 50px;
+    --h2_weight: 700;
+    
+    --h3: 26px;
+    --h3_line-height: 36px;
+    --h3_weight: 700;
+    
+    --h4: 24px;
+    --h4_line-height: 34px;
+    --h4_weight: 700;
+    
+    --h5: 22px;
+    --h5_line-height: 32px;
+    --h5_weight: 700;
+
+    --h6: 18px;
+    --h6_line-height: 28px;
+    --h6_weight: 500;
+
+    --nav-link: 16px;
+    --nav-link-height: 26px;
+    --nav-link-weight: 400;
+    --nav-link-padding: 22px !important;
+    /*--h6: 22px;
+    --h6_line-height: 32px;
+    --h6_weight: 600;*/
+
+    --p1: 22px;
+    --p1_line-height: 32px;
+    --p1_weight: 500;
+
+    --p2: 20px;
+    --p2_line-height: 30px;
+    --p2_weight: 700;
+
+    --p3: 18px;
+    --p3_line-height: 28px;
+    --p3_weight: 500;
+
+    --p4: 18px;
+    --p4_line-height: 28px;
+    --p4_weight: 600;
+
+    --btn-font: 18px;
+    --btn-line-height: 28px;
+    --btn-weight: 600;
+}
+
+@media(max-width:1320px){
+    :root {
+        --nav-link: 16px;
+        --nav-link-height: 26px;
+
+        --h1: 44px;
+        --h1_line-height: 54px;
+        --h1_weight: 700;
+
+        --h2: 32px;
+        --h2_line-height: 42px;
+        --h2_weight: 700;
+
+        --h3: 18px;
+        --h3_line-height: 28px;
+        --h3_weight: 600;
+
+        --h4: 16px;
+        --h4_line-height: 26px;
+        --h4_weight: 700;
+
+        --h5: 16px;
+        --h5_line-height: 26px;
+        --h5_weight: 700;
+
+        --p1: 18px;
+        --p1_line-height: 28px;
+        --p1_weight: 500;
+
+        --p2: 16px;
+        --p2_line-height: 26px;
+        --p2_weight: 700;
+
+        --p3: 16px;
+        --p3_line-height: 26px;
+        --p3_weight: 500;
+
+        --p4: 16px;
+        --p4_line-height: 26px;
+        --p4_weight: 500;
+
+        --btn-font:16px;
+        --btn-line-height:26px;
+        --btn-weight:500;
+    }
+}
+
+
+@media (max-width:992px) {
+
+    :root {
+        --nav-link: 16px;
+        --nav-link-height: 26px;
+
+        --h1: 40px;
+        --h1_line-height: 50px;
+        --h1_weight: 700;
+
+        --h2: 30px;
+        --h2_line-height: 40px;
+        --h2_weight: 700;
+
+        --h3: 16px;
+        --h3_line-height: 26px;
+        --h3_weight: 600;
+
+        --h4: 16px;
+        --h4_line-height: 26px;
+        --h4_weight: 700;
+
+        --h5: 16px;
+        --h5_line-height: 26px;
+        --h5_weight: 700;
+
+        --p1: 18px;
+        --p1_line-height: 28px;
+        --p1_weight: 500;
+
+        --p2: 16px;
+        --p2_line-height: 26px;
+        --p2_weight: 700;
+
+        --p3: 16px;
+        --p3_line-height: 26px;
+        --p3_weight: 500;
+
+        --p4: 16px;
+        --p4_line-height: 26px;
+        --p4_weight: 500;
+
+        --btn-font: 16px;
+        --btn-line-height: 26px;
+        --btn-weight: 500;
+    }
+}
+
+
+@media (max-width:576px) {
+
+    :root {
+        --nav-link: 16px;
+        --nav-link-height: 26px;
+
+        --h1: 32px;
+        --h1_line-height: 42px;
+        --h1_weight: 600;
+
+        --h2: 24px;
+        --h2_line-height: 34px;
+        --h2_weight: 600;
+
+        --h3: 16px;
+        --h3_line-height: 26px;
+        --h3_weight: 600;
+
+        --h4: 16px;
+        --h4_line-height: 26px;
+        --h4_weight: 700;
+
+        --h5: 16px;
+        --h5_line-height: 26px;
+        --h5_weight: 700;
+
+        --p1: 16px;
+        --p1_line-height: 26px;
+        --p1_weight: 500;
+
+        --p2: 16px;
+        --p2_line-height: 26px;
+        --p2_weight: 700;
+
+        --p3: 16px;
+        --p3_line-height: 26px;
+        --p3_weight: 500;
+
+        --p4: 16px;
+        --p4_line-height: 26px;
+        --p4_weight: 500;
+
+        --btn-font: 16px;
+        --btn-line-height: 26px;
+        --btn-weight: 500;
+    }
+}
